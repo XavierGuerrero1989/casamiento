@@ -31,9 +31,21 @@ div.btnbg {
   font-size: 4rem !important;
   text-decoration: none;
   color: white; }
+  @media screen and (max-width: 320px) {
+    .titulo {
+      font-size: 6rem; } }
+  @media screen and (max-width: 768px) {
+    .titulo {
+      font-size: 6rem; } }
 
 .subtitulo {
   font-family: "Tangerine", cursive;
   text-decoration: none;
   color: white;
   font-size: 5rem !important; }
+  @media screen and (max-width: 320px) {
+    .subtitulo {
+      font-size: 6rem; } }
+  @media screen and (max-width: 768px) {
+    .subtitulo {
+      font-size: 6rem; } }
