@@ -35,13 +35,14 @@ div.btnbg {
 
     @include movil{
        
-        font-size: 2rem;
+        font-size: 2rem !important;
       }
   
     @include tablet{
         
-        font-size: 2rem;
+        font-size: 2rem !important;
       }
+    
 }
 
 .subtitulo{
@@ -52,11 +53,11 @@ div.btnbg {
 
     @include movil{
        
-        font-size: 2rem;
+        font-size: 3rem !important;
       }
   
     @include tablet{
         
-        font-size: 2rem;
+        font-size: 3rem !important;
       }
 }
