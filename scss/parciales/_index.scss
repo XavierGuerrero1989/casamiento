@@ -32,6 +32,10 @@ div.btnbg {
     font-size: 4rem !important;
     text-decoration: none;
     color: white;
+
+    &:hover{
+        color: pink;
+    }
     
 
     @include movil{
@@ -51,6 +55,10 @@ div.btnbg {
     text-decoration: none;
     color: white;
     font-size: 5rem !important;
+
+    &:hover{
+        color: pink;
+    }
 
     @include movil{
        
