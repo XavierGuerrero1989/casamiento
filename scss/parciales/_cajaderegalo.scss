@@ -1,0 +1,148 @@
+@import "./variables";
+@import "./responsive";
+
+
+$timing: 640ms;
+
+.cajaderegalos{
+    background: rgb(249,105,166);
+    background: linear-gradient(37deg, rgba(249,105,166,1) 57%, rgba(255,255,255,1) 100%); 
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  color: white;
+  height: 60vh;
+
+  @include movil{
+      height: 90vh;
+  }
+
+  @include tablet{
+    height: 90vh;
+}
+}
+
+svg#giftBox{
+  //background-color: green;
+  width: 30vh;
+  fill: white;
+  transform: translate(-50%, -65%);
+  position: relative;
+  top: 50%; left: 50%;
+  
+  
+  #giftBox--illustration{
+    #giftBox--background{
+      clip-path: url(#giftBox--mask);
+      }
+    #giftBox--bkg{
+      display: none;
+    }
+    #giftBox--box{
+      transform: translate(0,3%);
+      
+    }
+    #giftBox--lid{
+      
+      //animation: shake 1000ms 1 forwards;
+      transform-origin: center bottom;
+    }
+    #giftBox--shadow{
+      fill: rgba(0,0,0,.2);
+      opacity: 0;
+    }
+    #giftBox--ribbon{
+      transform-origin: center bottom;
+      transform: scaleY(0);
+    }
+    #giftBox--heart{
+      //animation: drop 1000ms 1 forwards;
+      transform-origin: center top;
+      transform: translate(0, -66%);
+    }
+    #giftBox--mask{
+      //display: none;
+      fill: green;
+      transform: translate(0, -19%) scale(.95);
+      transform-origin: center 40%;
+    }
+  }
+  &:hover{
+    #giftBox--illustration{
+      #giftBox--lid{
+        animation: shake ($timing * .6) 200ms 1 forwards;
+      }
+      #giftBox--shadow{
+        animation: shadow $timing 1 ($timing * 0.4) ease-out forwards;
+      }
+      #giftBox--heart{
+        animation: drop $timing 1 cubic-bezier(0.155, 0.845, 0.115, 1.00) forwards;
+      }
+      #giftBox--mask{
+        animation: drop-mask $timing 1 cubic-bezier(0.155, 0.845, 0.115, 1.00) forwards;
+      }
+      #giftBox--ribbon{
+        animation: ribbon $timing 1 ($timing * .4) cubic-bezier(0.155, 0.845, 0.115, 1.00) forwards;
+      }
+    }
+  }
+}
+@keyframes drop{
+  0%{
+    transform: translate(0, -66%);
+  }
+  100%{
+    transform: translate(0,0);
+  }
+}
+@keyframes drop-mask{
+  0%{
+    transform: translate(0, -19%) scale(.95);
+  }
+  100%{
+    transform: translate(0,0) scale(.95);
+  }
+}
+@keyframes shake{
+  0%{
+    transform: rotate(0deg);
+  }
+  10%{
+    transform: rotate(0deg);
+  }
+  30%{
+    transform: rotate(3deg);
+  }
+  50%{
+    transform: rotate(-3deg);
+  }
+  70%{
+    transform: rotate(0deg);
+  }
+  90%{
+    transform: rotate(-3deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+@keyframes ribbon{
+  0%{transform: scaleY(0)}
+  100%{transform: scaleY(1)}
+}
+@keyframes shadow{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.cajaregalotxt{
+    font-family: $font-normal;
+    color: white;
+    padding: 15px;
+
+    @include movil{
+        padding: 0;
+    }
+  
+    @include tablet{
+        padding: 0;
+  }
+}
