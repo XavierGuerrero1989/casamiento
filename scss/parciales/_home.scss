@@ -152,25 +152,73 @@
 }
 
 .iglesiaimg{
-    height: 300px;
     padding: 20px;
 }
+
+.iglesiatxt1{
+        font-family: $font-normal;
+        font-size: 2rem;
+        color: rgb(37,0,249);
+        text-decoration: none;
+    }
 
 .iglesiatxt{
     font-family: $font-normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(37,0,249);
     text-decoration: none;
+
+    &:hover{
+            color: pink;
+    }
 }
 
 .fiestaimg{
-    height: 300px;
     padding: 20px;
 }
 
+.fiestatxt1{
+        font-family: $font-normal;
+        font-size: 2rem;
+        color: rgb(37,0,249);
+        text-decoration: none;
+    }
+
 .fiestatxt{
     font-family: $font-normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(37,0,249);
     text-decoration: none;
+
+    &:hover{
+            color: pink;
+    }
+}
+
+.vestimenta{
+        background: rgb(255,255,255);
+        background: linear-gradient(47deg, rgba(255,255,255,1) 3%, rgba(37,0,249,1) 100%);
+
+        &__titulo{
+                font-family: $font-normal;
+                font-size: 3rem;
+                color: white;
+                padding: 20px;
+        }
+
+        &__subtitulo{
+                font-family: $font-normal;
+                font-size: 2rem;
+                color: white;
+                padding-bottom: 20px;
+        }
+}
+
+.carroctn{
+        padding: 50px;
+}
+
+.carroimg{
+        border-radius: 20px 20px 20px 20px;
+        padding: 5px;
 }

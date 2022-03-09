@@ -177,24 +177,59 @@ div.btnbg {
   color: #2500f9; }
 
 .iglesiaimg {
-  height: 300px;
   padding: 20px; }
+
+.iglesiatxt1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  color: #2500f9;
+  text-decoration: none; }
 
 .iglesiatxt {
   font-family: "Quicksand", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #2500f9;
   text-decoration: none; }
+  .iglesiatxt:hover {
+    color: pink; }
 
 .fiestaimg {
-  height: 300px;
   padding: 20px; }
+
+.fiestatxt1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  color: #2500f9;
+  text-decoration: none; }
 
 .fiestatxt {
   font-family: "Quicksand", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #2500f9;
   text-decoration: none; }
+  .fiestatxt:hover {
+    color: pink; }
+
+.vestimenta {
+  background: white;
+  background: linear-gradient(47deg, white 3%, #2500f9 100%); }
+  .vestimenta__titulo {
+    font-family: "Quicksand", sans-serif;
+    font-size: 3rem;
+    color: white;
+    padding: 20px; }
+  .vestimenta__subtitulo {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 20px; }
+
+.carroctn {
+  padding: 50px; }
+
+.carroimg {
+  border-radius: 20px 20px 20px 20px;
+  padding: 5px; }
 
 #bodys {
   align-items: center;
