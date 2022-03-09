@@ -168,6 +168,34 @@ div.btnbg {
   color: white;
   font-size: 2rem; }
 
+.dondeimg {
+  width: 300px; }
+
+.dondetexto {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  color: #2500f9; }
+
+.iglesiaimg {
+  height: 300px;
+  padding: 20px; }
+
+.iglesiatxt {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+  color: #2500f9;
+  text-decoration: none; }
+
+.fiestaimg {
+  height: 300px;
+  padding: 20px; }
+
+.fiestatxt {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+  color: #2500f9;
+  text-decoration: none; }
+
 #bodys {
   align-items: center;
   background-color: white;

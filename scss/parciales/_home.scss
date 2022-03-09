@@ -139,3 +139,38 @@
     color: white;
     font-size: 2rem;
 }
+
+.dondeimg{
+    width: 300px;
+}
+
+.dondetexto{
+    font-family: $font-normal;
+    font-size: 2rem;
+    color: rgb(37,0,249);
+    
+}
+
+.iglesiaimg{
+    height: 300px;
+    padding: 20px;
+}
+
+.iglesiatxt{
+    font-family: $font-normal;
+    font-size: 1.5rem;
+    color: rgb(37,0,249);
+    text-decoration: none;
+}
+
+.fiestaimg{
+    height: 300px;
+    padding: 20px;
+}
+
+.fiestatxt{
+    font-family: $font-normal;
+    font-size: 1.5rem;
+    color: rgb(37,0,249);
+    text-decoration: none;
+}
