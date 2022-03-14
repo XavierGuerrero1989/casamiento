@@ -55,7 +55,7 @@ div.btnbg {
       font-size: 3rem !important; } }
 
 .hero {
-  background-image: url("../../assets/foto3.jpg");
+  background-image: url("../assets/foto3.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -138,6 +138,14 @@ div.btnbg {
   font-family: "Quicksand", sans-serif;
   color: white;
   font-size: 2rem; }
+
+@media screen and (max-width: 320px) {
+  .fantasma {
+    height: 0px; } }
+
+@media screen and (max-width: 768px) {
+  .fantasma {
+    height: 0px; } }
 
 .dondeimg {
   width: 300px; }
@@ -228,16 +236,21 @@ div.btnbg {
   background: #f969a6;
   background: linear-gradient(37deg, #f969a6 57%, white 100%);
   color: white; }
-  .confirmacion__ttl {
-    font-size: 2rem; }
-  .confirmacion__nombre {
-    padding: 10px; }
-  .confirmacion__alimenticio {
-    padding: 10px; }
-  .confirmacion__coment {
-    padding: 10px; }
-  .confirmacion__btns {
-    padding: 10px; }
+
+.confirmacion__ttl {
+  font-size: 2rem; }
+
+.confirmacion__nombre {
+  padding: 10px; }
+
+.confirmacion__alimenticio {
+  padding: 10px; }
+
+.confirmacion__coment {
+  padding: 10px; }
+
+.confirmacion__btns {
+  padding: 10px; }
 
 #bodys {
   align-items: center;
