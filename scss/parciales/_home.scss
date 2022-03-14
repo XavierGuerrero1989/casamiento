@@ -196,7 +196,7 @@
 }
 
 .asistencia{
-        background-image: url("../../assets/lorenza.jpg");
+        background-image: url("../assets/lorenza.jpg");
         background-attachment: fixed;
         background-position: center center;
         background-size: cover;
@@ -214,6 +214,14 @@
                 border-radius: 20px 20px 20px 20px;
                 text-decoration: none;
                 width: 60vh;
+
+                @include movil{
+                        width: 40vh;
+                    }
+                  
+                    @include tablet{
+                        width: 40vh;
+                  }
         }
 }
 

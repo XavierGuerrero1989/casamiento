@@ -211,7 +211,7 @@ div.btnbg {
     color: pink; }
 
 .asistencia {
-  background-image: url("../../assets/lorenza.jpg");
+  background-image: url("../assets/lorenza.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -226,6 +226,12 @@ div.btnbg {
     border-radius: 20px 20px 20px 20px;
     text-decoration: none;
     width: 60vh; }
+    @media screen and (max-width: 320px) {
+      .asistencia__txt {
+        width: 40vh; } }
+    @media screen and (max-width: 768px) {
+      .asistencia__txt {
+        width: 40vh; } }
 
 .carroctn {
   padding: 50px; }
@@ -409,3 +415,31 @@ svg#giftBox {
   @media screen and (max-width: 768px) {
     .cajaregalotxt {
       padding: 0; } }
+
+.heroregalos {
+  background-image: url("../../assets/herogallinas.bmp");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 80vh; }
+
+.volver {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  color: white; }
+  .volver:hover {
+    color: pink; }
+
+.hero__explicacion {
+  font-family: "Quicksand", sans-serif; }
+
+.canvas__txt {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem; }
+
+.carta__regalo {
+  padding: 10px; }
+
+.card__text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem; }
