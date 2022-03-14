@@ -82,17 +82,14 @@
             <div class="col-md-3"></div>
             <div class="col-md-3 text-center">
                 <h3 class="fiestatxt1"> <strong>FIESTA</strong> </h3>
-                <a href="https://www.google.com/maps/place/Lorenza+Eventos/@-34.8551193,-58.5195267,17z/data=!4m5!3m4!1s0x95bcd72cd7993533:0xdf03fac2a9976536!8m2!3d-34.8562939!4d-58.5174849" target="_blank" class="fiestatxt"> <strong>Lorenza Eventos. <br> Luego de la Ceremonia. <br> Lorenza Zenavilla 443, Canning.</strong>  </a>
+                <a href="https://www.google.com/maps/place/Lorenza+Eventos/@-34.8551193,-58.5195267,17z/data=!4m5!3m4!1s0x95bcd72cd7993533:0xdf03fac2a9976536!8m2!3d-34.8562939!4d-58.5174849" target="_blank" class="fiestatxt"> <strong>Lorenza Eventos. <br> Lorenza Zenavilla 443, Canning. <br>21.30hs. <br>Codigo de Vestimenta: ELEGANTE. </strong>  </a>
             </div>
         </div>
     </div>
 
-    <div data-aos="flip-down" data-aos-duration="3000" class="container-fluid vestimenta">
-        <div class="row d-flex justify-content-center">
-            <h2 class="col-md-8 text-center vestimenta__titulo">CODIGO DE VESTIMENTA</h2>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <h3 class="col-md-8 text-center vestimenta__subtitulo">ELEGANTE</h3>
+    <div class="container-fluid d-flex justify-content-start asistencia">
+        <div class="row d-flex align-items-center">
+            <a href="#formulario" class="col-md-8 asistencia__link"> <h2 class="asistencia__txt text-center">CONFIRMA TU ASISTENCIA <br>Hace click aca. <br> Tenes tiempo hasta el 10/08/2022 </h2></a>
         </div>
     </div>
 
@@ -168,6 +165,38 @@
         <h2 class="col-md-6 text-center instatxt"> <strong> ETIQUETANOS CON NUESTRO HASHTAG <br> <span class="hashtag">#YaniyXavo</span> <br> EN TUS FOTOS Y VIDEOS DE INSTAGRAM PARA QUE SIGAMOS VIVIENDO JUNTOS NUESTRO GRAN DIA!</strong></h2>
     </div>
 </div>
+
+<div class="container-fluid confirmacion" id="formulario">
+    <div class="row d-flex justify-content-center">
+        <h2 class="text-center confirmacion__ttl"> <strong>ENVIANOS TU CONFIRMACION</strong> </h2>
+        <form id="form" class="col-md-4 contact__form" action="https://formsubmit.co/xymdesarrollosweb@gmail.com"
+        method="POST">
+
+        <div class="input-group input-group-sm mb-3 confrimacion__nombre">
+            <label for="Nombre" class="input-group-text" id="inputGroup-sizing-sm">Nombre Completo</label>
+            <input name="Nombre" id="Nombre" type="text" placeholder="Ingresa tu nombre completo" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+          </div>
+          <div class="input-group input-group-sm mb-3">
+            <label for="Personas" class="input-group-text" id="inputGroup-sizing-sm">Cantidad de personas a confirmar</label>
+            <input name="Personas" id="Personas" type="number" placeholder="" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+          </div>
+          <div class="input-group confirmacion__coment">
+            <label for="alimentacion" class="input-group-text">Condicion<br>Alimenticia</label>
+            <textarea name="alimentacion" id="alimentacion" class="form-control" aria-label="With textarea" placeholder="Indicanos si sos vegano/celiaco/alergico." ></textarea>
+          </div>
+
+        <div class="input-group confirmacion__coment">
+            <label for="adicional" class="input-group-text">Informacion<br>adicional</label>
+            <textarea name="adicional" id="adicional" class="form-control" aria-label="With textarea" placeholder="Dejanos un mensaje adicional." ></textarea>
+          </div>
+              <div class="col-12 text-center confirmacion__bnt">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+        </form>
+    </div>
+</div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
