@@ -2,47 +2,11 @@
 @import "./responsive";
 
 .hero{
-    background-image: url("../assets/hero.jpg");
+    background-image: url("../../assets/foto3.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    height: 80vh;
-    animation-name: kenburns-top;
-    animation-duration: 6s;
-    animation-direction: alternate-reverse;
-
-    -webkit-animation: kenburns-top 5s ease-out reverse both;
-	        animation: kenburns-top 5s ease-out reverse both;
-
-            @-webkit-keyframes kenburns-top {
-                0% {
-                  -webkit-transform: scale(1) translateY(0);
-                          transform: scale(1) translateY(0);
-                  -webkit-transform-origin: 50% 16%;
-                          transform-origin: 50% 16%;
-                }
-                100% {
-                  -webkit-transform: scale(1.25) translateY(-15px);
-                          transform: scale(1.25) translateY(-15px);
-                  -webkit-transform-origin: top;
-                          transform-origin: top;
-                }
-              }
-              @keyframes kenburns-top {
-                0% {
-                  -webkit-transform: scale(1) translateY(0);
-                          transform: scale(1) translateY(0);
-                  -webkit-transform-origin: 50% 16%;
-                          transform-origin: 50% 16%;
-                }
-                100% {
-                  -webkit-transform: scale(1.25) translateY(-15px);
-                          transform: scale(1.25) translateY(-15px);
-                  -webkit-transform-origin: top;
-                          transform-origin: top;
-                }
-              }
-              
+    height: 80vh;           
 }
 
 .textoHero{
@@ -138,6 +102,16 @@
     font-family: $font-normal;
     color: white;
     font-size: 2rem;
+}
+
+.fantasma{
+
+        @include movil{
+                height: 0px;
+            }
+          
+            @include tablet{
+                height: 0px;
 }
 
 .dondeimg{
