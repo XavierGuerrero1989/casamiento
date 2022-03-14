@@ -2,7 +2,7 @@
 @import "./responsive";
 
 .hero{
-    background-image: url("../../assets/foto3.jpg");
+    background-image: url("../assets/foto3.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -226,26 +226,27 @@
         padding: 20px;
         font-family: $font-normal;
         background: rgb(249,105,166);
-    background: linear-gradient(37deg, rgba(249,105,166,1) 57%, rgba(255,255,255,1) 100%);
-    color: white;
+        background: linear-gradient(37deg, rgba(249,105,166,1) 57%, rgba(255,255,255,1) 100%);
+        color: white;
+}
 
-        &__ttl{
+.confirmacion__ttl{
                 font-size: 2rem;
         }
 
-        &__nombre{
+.confirmacion__nombre{
                 padding: 10px;
         }
 
-        &__alimenticio{
+.confirmacion__alimenticio{
                 padding: 10px;
         }
 
-        &__coment{
+.confirmacion__coment{
                 padding: 10px;
-        }
+}
 
-        &__btns{
-                padding: 10px;
-        }
+
+.confirmacion__btns{
+        padding: 10px;
 }
