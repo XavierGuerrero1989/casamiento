@@ -70,3 +70,13 @@ div.btnbg {
         font-size: 3rem !important;
       }
 }
+
+.linkhome{
+    font-family: $font-normal;
+    color: white;
+    font-size: 1rem;
+
+    &:hover{
+        color: pink;
+    }
+}

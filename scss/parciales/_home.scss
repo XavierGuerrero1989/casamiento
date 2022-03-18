@@ -9,6 +9,17 @@
     height: 80vh;           
 }
 
+.volver1{
+        font-family: $font-normal;
+        text-decoration: none;
+        color: white;
+        height: 20px;
+    
+        &:hover{
+            color: pink;
+        }
+    }
+
 .textoHero{
     background: rgb(249,105,166);
     background: linear-gradient(37deg, rgba(249,105,166,1) 57%, rgba(255,255,255,1) 100%);

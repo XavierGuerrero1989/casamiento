@@ -9,14 +9,14 @@ $timing: 640ms;
     background: linear-gradient(37deg, rgba(249,105,166,1) 57%, rgba(255,255,255,1) 100%); 
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   color: white;
-  height: 60vh;
+  height: 75vh;
 
   @include movil{
-      height: 90vh;
+      height: 95vh;
   }
 
   @include tablet{
-    height: 90vh;
+    height: 95vh;
 }
 }
 
