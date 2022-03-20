@@ -57,7 +57,8 @@ div.btnbg {
 .linkhome {
   font-family: "Quicksand", sans-serif;
   color: white;
-  font-size: 1rem; }
+  font-size: 1rem;
+  padding: 20px; }
   .linkhome:hover {
     color: pink; }
 
@@ -183,7 +184,8 @@ div.btnbg {
   font-family: "Quicksand", sans-serif;
   font-size: 1rem;
   color: #2500f9;
-  text-decoration: none; }
+  text-decoration: none;
+  padding: 5px; }
   .iglesiatxt:hover {
     color: pink; }
 
@@ -200,7 +202,8 @@ div.btnbg {
   font-family: "Quicksand", sans-serif;
   font-size: 1rem;
   color: #2500f9;
-  text-decoration: none; }
+  text-decoration: none;
+  padding: 5px; }
   .fiestatxt:hover {
     color: pink; }
 
