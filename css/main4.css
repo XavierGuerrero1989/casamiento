@@ -63,11 +63,11 @@ div.btnbg {
     color: pink; }
 
 .hero {
-  background-image: url("../assets/foto3.jpg");
+  background-image: url("../assets/portada.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  height: 80vh; }
+  height: 100vh; }
 
 .volver1 {
   font-family: "Quicksand", sans-serif;
@@ -284,7 +284,15 @@ div.btnbg {
   align-items: center;
   background-color: white;
   display: flex;
-  font-family: -apple-system,  BlinkMacSystemFont,  "Segoe UI",  Roboto,  Oxygen-Sans,  Ubuntu,  Cantarell,  "Helvetica Neue",  sans-serif; }
+  font-family: -apple-system, 
+ BlinkMacSystemFont, 
+ "Segoe UI", 
+ Roboto, 
+ Oxygen-Sans, 
+ Ubuntu, 
+ Cantarell, 
+ "Helvetica Neue", 
+ sans-serif; }
 
 .container {
   color: pink;
