@@ -19,7 +19,6 @@
 }
 
 
-
 .herotitulo{
     font-family: $font-normal;
     color: white;
@@ -50,84 +49,59 @@
 .dondetexto{
     font-family: $font-normal;
     font-size: 2rem;
-    color: rgb(37,0,249);
+    color: $color-dorado;
     
 }
 
 .iglesiaimg{
     padding: 20px;
+    width: 20%;
 }
 
 .iglesiatxt1{
         font-family: $font-normal;
         font-size: 2rem;
-        color: rgb(37,0,249);
+        color: $color-dorado;
         text-decoration: none;
     }
 
 .iglesiatxt{
     font-family: $font-normal;
     font-size: 1rem;
-    color: rgb(37,0,249);
+    color: $color-dorado;
     text-decoration: none;
     padding: 5px;
 
-    &:hover{
-            color: pink;
-    }
+   
 }
 
 .fiestaimg{
+        width: 20%;
     padding: 20px;
 }
 
 .fiestatxt1{
         font-family: $font-normal;
         font-size: 2rem;
-        color: rgb(37,0,249);
+        color: $color-dorado;
         text-decoration: none;
     }
 
 .fiestatxt{
     font-family: $font-normal;
     font-size: 1rem;
-    color: rgb(37,0,249);
+    color: $color-dorado;
     text-decoration: none;
     padding: 5px;
 
-    &:hover{
-            color: pink;
-    }
+    
 }
 
 .asistencia{
-        background-image: url("../assets/lorenza.jpg");
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover;
-        height: 60vh;
-
-        &__link{
-                text-decoration: none;
-        }
-
-        &__txt{
-                font-family: $font-normal;
-                color: white;
-                font-size: 1.5rem;
-                background-color: rgba(244,104,183, 0.5);
-                border-radius: 20px 20px 20px 20px;
-                text-decoration: none;
-                width: 60vh;
-
-                @include movil{
-                        width: 40vh;
-                    }
-                  
-                    @include tablet{
-                        width: 40vh;
-                  }
-        }
+        background-color: $color-verde;
+        height: 20vh;
+        color: white;
+        font-family: $font-normal;
 }
 
 .carroctn{
@@ -139,13 +113,10 @@
         padding: 5px;
 }
 
-.insta{
-        width: 250px;
-}
 
-.instatxt{
-        font-family: $font-normal;
-        font-size: 1.5rem;
+
+.insta{
+        width: 10%;
 }
 
 .hashtag{
@@ -160,36 +131,3 @@
         color: white;
 }
 
-.confirmacion__ttl{
-                font-size: 2rem;
-        }
-
-.confirmacion__ttl2{
-                font-size: 1rem;
-        }
-
-.confirmacion__nombre{
-                padding: 10px;
-        }
-
-.confirmacion__alimenticio{
-                padding: 10px;
-        }
-
-.confirmacion__coment{
-                padding: 10px;
-}
-
-
-.confirmacion__btns{
-        padding: 10px;
-}
-
-.botonDrop{
-        background-color: #e9ecef !important;
-}
-
-.listaBebida{
-        font-size: 0.7rem;
-        font-family: $font-normal;
-}

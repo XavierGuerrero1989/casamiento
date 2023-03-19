@@ -1,40 +1,7 @@
 @import "./variables";
 @import "./responsive";
 
-.heroregalos{
-    background-image: url("../assets/herogallinas.bmp");
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    height: 80vh;
-}
-
-.volver{
-    font-family: $font-normal;
-    text-decoration: none;
-    color: white;
-
-    &:hover{
-        color: pink;
-    }
-}
-
-.hero__explicacion{
-    font-family: $font-normal;
-
-}
-
-.canvas__txt{
-    font-family: $font-normal;
-    font-size: 1rem;
-}
-
-.carta__regalo{
-    padding: 10px;
-}
-
-
-.card__text{
-    font-family: $font-normal;
-    font-size: 1rem;
+.cajaderegalos{
+    background-color: $color-dorado;
+    
 }

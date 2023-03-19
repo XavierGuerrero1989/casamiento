@@ -11,10 +11,35 @@
   height: 100vh; }
 
 .titulo1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
   height: 1.5vh;
   margin-top: 40vh; }
+
+.novios {
+  font-family: 'Dancing Script', cursive;
+  font-size: 6rem; }
+
+.titulofoto {
+  font-family: "Montserrat", sans-serif;
+  font-family: 2rem;
+  color: #ddc190;
+  margin-top: 20px; }
+
+.tituloregalo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.botonregalo {
+  margin: 20px; }
+
+.instatxt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #7A9991; }
 
 #body {
   padding: 0;
@@ -111,66 +136,47 @@ div.btnbg {
 .dondetexto {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  color: #2500f9; }
+  color: #ddc190; }
 
 .iglesiaimg {
-  padding: 20px; }
+  padding: 20px;
+  width: 20%; }
 
 .iglesiatxt1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  color: #2500f9;
+  color: #ddc190;
   text-decoration: none; }
 
 .iglesiatxt {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  color: #2500f9;
+  color: #ddc190;
   text-decoration: none;
   padding: 5px; }
-  .iglesiatxt:hover {
-    color: pink; }
 
 .fiestaimg {
+  width: 20%;
   padding: 20px; }
 
 .fiestatxt1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  color: #2500f9;
+  color: #ddc190;
   text-decoration: none; }
 
 .fiestatxt {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  color: #2500f9;
+  color: #ddc190;
   text-decoration: none;
   padding: 5px; }
-  .fiestatxt:hover {
-    color: pink; }
 
 .asistencia {
-  background-image: url("../assets/lorenza.jpg");
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 60vh; }
-  .asistencia__link {
-    text-decoration: none; }
-  .asistencia__txt {
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    font-size: 1.5rem;
-    background-color: rgba(244, 104, 183, 0.5);
-    border-radius: 20px 20px 20px 20px;
-    text-decoration: none;
-    width: 60vh; }
-    @media screen and (max-width: 320px) {
-      .asistencia__txt {
-        width: 40vh; } }
-    @media screen and (max-width: 768px) {
-      .asistencia__txt {
-        width: 40vh; } }
+  background-color: #7A9991;
+  height: 20vh;
+  color: white;
+  font-family: "Montserrat", sans-serif; }
 
 .carroctn {
   padding: 50px; }
@@ -180,11 +186,7 @@ div.btnbg {
   padding: 5px; }
 
 .insta {
-  width: 250px; }
-
-.instatxt {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem; }
+  width: 10%; }
 
 .hashtag {
   font-size: 2rem; }
@@ -195,31 +197,6 @@ div.btnbg {
   background: #f969a6;
   background: linear-gradient(37deg, #f969a6 57%, white 100%);
   color: white; }
-
-.confirmacion__ttl {
-  font-size: 2rem; }
-
-.confirmacion__ttl2 {
-  font-size: 1rem; }
-
-.confirmacion__nombre {
-  padding: 10px; }
-
-.confirmacion__alimenticio {
-  padding: 10px; }
-
-.confirmacion__coment {
-  padding: 10px; }
-
-.confirmacion__btns {
-  padding: 10px; }
-
-.botonDrop {
-  background-color: #e9ecef !important; }
-
-.listaBebida {
-  font-size: 0.7rem;
-  font-family: "Montserrat", sans-serif; }
 
 #bodys {
   align-items: center;
@@ -234,7 +211,7 @@ div.btnbg {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-weight: lighter;
   letter-spacing: .125rem;
   text-transform: uppercase; }
 
@@ -267,132 +244,4 @@ li span {
     font-size: calc(3.375rem * var(--smaller)); } }
 
 .cajaderegalos {
-  background: #f969a6;
-  background: linear-gradient(37deg, #f969a6 57%, white 100%);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  color: white;
-  height: 75vh; }
-  @media screen and (max-width: 320px) {
-    .cajaderegalos {
-      height: 95vh; } }
-  @media screen and (max-width: 768px) {
-    .cajaderegalos {
-      height: 95vh; } }
-
-svg#giftBox {
-  width: 30vh;
-  fill: white;
-  transform: translate(-50%, -65%);
-  position: relative;
-  top: 50%;
-  left: 50%; }
-  svg#giftBox #giftBox--illustration #giftBox--background {
-    clip-path: url(#giftBox--mask); }
-  svg#giftBox #giftBox--illustration #giftBox--bkg {
-    display: none; }
-  svg#giftBox #giftBox--illustration #giftBox--box {
-    transform: translate(0, 3%); }
-  svg#giftBox #giftBox--illustration #giftBox--lid {
-    transform-origin: center bottom; }
-  svg#giftBox #giftBox--illustration #giftBox--shadow {
-    fill: rgba(0, 0, 0, 0.2);
-    opacity: 0; }
-  svg#giftBox #giftBox--illustration #giftBox--ribbon {
-    transform-origin: center bottom;
-    transform: scaleY(0); }
-  svg#giftBox #giftBox--illustration #giftBox--heart {
-    transform-origin: center top;
-    transform: translate(0, -66%); }
-  svg#giftBox #giftBox--illustration #giftBox--mask {
-    fill: green;
-    transform: translate(0, -19%) scale(0.95);
-    transform-origin: center 40%; }
-  svg#giftBox:hover #giftBox--illustration #giftBox--lid {
-    animation: shake 384ms 200ms 1 forwards; }
-  svg#giftBox:hover #giftBox--illustration #giftBox--shadow {
-    animation: shadow 640ms 1 256ms ease-out forwards; }
-  svg#giftBox:hover #giftBox--illustration #giftBox--heart {
-    animation: drop 640ms 1 cubic-bezier(0.155, 0.845, 0.115, 1) forwards; }
-  svg#giftBox:hover #giftBox--illustration #giftBox--mask {
-    animation: drop-mask 640ms 1 cubic-bezier(0.155, 0.845, 0.115, 1) forwards; }
-  svg#giftBox:hover #giftBox--illustration #giftBox--ribbon {
-    animation: ribbon 640ms 1 256ms cubic-bezier(0.155, 0.845, 0.115, 1) forwards; }
-
-@keyframes drop {
-  0% {
-    transform: translate(0, -66%); }
-  100% {
-    transform: translate(0, 0); } }
-
-@keyframes drop-mask {
-  0% {
-    transform: translate(0, -19%) scale(0.95); }
-  100% {
-    transform: translate(0, 0) scale(0.95); } }
-
-@keyframes shake {
-  0% {
-    transform: rotate(0deg); }
-  10% {
-    transform: rotate(0deg); }
-  30% {
-    transform: rotate(3deg); }
-  50% {
-    transform: rotate(-3deg); }
-  70% {
-    transform: rotate(0deg); }
-  90% {
-    transform: rotate(-3deg); }
-  100% {
-    transform: rotate(0deg); } }
-
-@keyframes ribbon {
-  0% {
-    transform: scaleY(0); }
-  100% {
-    transform: scaleY(1); } }
-
-@keyframes shadow {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-.cajaregalotxt {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  padding: 15px; }
-  @media screen and (max-width: 320px) {
-    .cajaregalotxt {
-      padding: 0; } }
-  @media screen and (max-width: 768px) {
-    .cajaregalotxt {
-      padding: 0; } }
-
-.heroregalos {
-  background-image: url("../assets/herogallinas.bmp");
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 80vh; }
-
-.volver {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  color: white; }
-  .volver:hover {
-    color: pink; }
-
-.hero__explicacion {
-  font-family: "Montserrat", sans-serif; }
-
-.canvas__txt {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem; }
-
-.carta__regalo {
-  padding: 10px; }
-
-.card__text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem; }
+  background-color: #ddc190; }
