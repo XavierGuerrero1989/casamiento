@@ -39,7 +39,7 @@
 .instatxt {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  color: #7A9991; }
+  color: #ddc190; }
 
 #body {
   padding: 0;
@@ -197,6 +197,32 @@ div.btnbg {
   background: #f969a6;
   background: linear-gradient(37deg, #f969a6 57%, white 100%);
   color: white; }
+
+.codigoVestimenta {
+  background-color: #ddc190;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px; }
+
+.imgcopy {
+  width: 15px;
+  cursor: pointer; }
+
+.infoAdicional {
+  background-color: #7A9991;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px; }
+
+.spotify {
+  color: #ddc190;
+  font-family: "Montserrat", sans-serif; }
+
+.musica {
+  width: 10%; }
+
+.botonOro {
+  background-color: #ddc190; }
 
 #bodys {
   align-items: center;

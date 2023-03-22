@@ -131,3 +131,34 @@
         color: white;
 }
 
+.codigoVestimenta{
+        background-color: $color-dorado;
+        color: white;
+        font-family: $font-normal;
+        padding: 20px;
+}
+
+.imgcopy{
+    width: 15px;
+    cursor: pointer;
+}
+
+.infoAdicional{
+    background-color: $color-verde;
+    color: white;
+    font-family: $font-normal;
+    padding: 20px;
+}
+
+.spotify{
+    color: $color-dorado;
+    font-family: $font-normal;
+}
+
+.musica{
+    width: 10%;
+}
+
+.botonOro{
+    background-color: $color-dorado;
+}
