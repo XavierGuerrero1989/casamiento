@@ -31,16 +31,7 @@
     font-size: 2rem;
 }
 
-.fantasma{
 
-        @include movil{
-                height: 0px;
-            }
-          
-            @include tablet{
-                height: 0px;
-            }
-}
 
 .dondeimg{
     width: 300px;
@@ -53,9 +44,17 @@
     
 }
 
-.iglesiaimg{
+.iglesiaimg1{
     padding: 20px;
     width: 20%;
+
+    @include tablet{
+        width: 150px !important;
+    }
+
+    @include movil{
+        width: 150px !important;
+    }
 }
 
 .iglesiatxt1{
@@ -63,6 +62,8 @@
         font-size: 2rem;
         color: $color-dorado;
         text-decoration: none;
+
+      
     }
 
 .iglesiatxt{
@@ -72,12 +73,22 @@
     text-decoration: none;
     padding: 5px;
 
-   
+    &:hover{
+        color: $color-verde;  
+      }
 }
 
 .fiestaimg{
         width: 20%;
     padding: 20px;
+
+    @include tablet{
+        width: 150px !important;
+    }
+
+    @include movil{
+        width: 150px !important;
+    }
 }
 
 .fiestatxt1{
@@ -93,8 +104,11 @@
     color: $color-dorado;
     text-decoration: none;
     padding: 5px;
+        
+    &:hover{
+        color: $color-verde;  
+      }
 
-    
 }
 
 .asistencia{
@@ -102,6 +116,27 @@
         height: 20vh;
         color: white;
         font-family: $font-normal;
+
+        @include tablet{
+            height: 27vh;
+            padding: 10px;
+        }
+    
+        @include movil{
+            height: 27vh;
+            padding: 10px;
+        }
+}
+
+.botoncel{
+    
+    @include tablet{
+        margin: 10px;
+    }
+
+    @include movil{
+        margin: 10px;
+    }
 }
 
 .carroctn{
@@ -121,6 +156,12 @@
 
 .hashtag{
         font-size: 2rem;
+        text-decoration: none;
+        color: $color-dorado;
+
+        &:hover{
+          color: $color-verde;  
+        }
 }
 
 .confirmacion{
