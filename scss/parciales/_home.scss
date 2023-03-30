@@ -152,6 +152,14 @@
 
 .insta{
         width: 10%;
+
+        @include tablet{
+            width: 50%;
+        }
+    
+        @include movil{
+            width: 50%;
+        }
 }
 
 .hashtag{
@@ -198,6 +206,14 @@
 
 .musica{
     width: 10%;
+
+    @include tablet{
+        width: 50%;
+    }
+
+    @include movil{
+        width: 50%;
+    }
 }
 
 .botonOro{

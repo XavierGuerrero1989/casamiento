@@ -217,6 +217,12 @@ div.btnbg {
 
 .insta {
   width: 10%; }
+  @media screen and (max-width: 768px) {
+    .insta {
+      width: 50%; } }
+  @media screen and (max-width: 320px) {
+    .insta {
+      width: 50%; } }
 
 .hashtag {
   font-size: 2rem;
@@ -254,6 +260,12 @@ div.btnbg {
 
 .musica {
   width: 10%; }
+  @media screen and (max-width: 768px) {
+    .musica {
+      width: 50%; } }
+  @media screen and (max-width: 320px) {
+    .musica {
+      width: 50%; } }
 
 .botonOro {
   background-color: #ddc190; }
