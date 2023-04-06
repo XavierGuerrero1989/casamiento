@@ -219,3 +219,13 @@
 .botonOro{
     background-color: $color-dorado;
 }
+
+.linkAloja{
+    font-family: $font-normal;
+    color: white;
+    text-decoration: none;
+    
+    &:hover{
+        color: $color-dorado !important;
+    }
+}

@@ -270,6 +270,13 @@ div.btnbg {
 .botonOro {
   background-color: #ddc190; }
 
+.linkAloja {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none; }
+  .linkAloja:hover {
+    color: #ddc190 !important; }
+
 #bodys {
   align-items: center;
   background-color: #7A9991;
